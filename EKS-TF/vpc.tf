@@ -1,35 +1,35 @@
-data "aws_vpc" "vpc2" {
+data "aws_vpc" "vpc" {
   filter {
     name   = "tag:Name"
     values = [var.vpc-name]
   }
 }
 
-data "aws_internet_gateway" "igw2" {
+data "aws_internet_gateway" "igw" {
   filter {
     name   = "tag:Name"
     values = [var.igw-name]
   }
 }
 
-data "aws_subnet" "subnet4" {
+data "aws_subnet" "subnet" {
   filter {
     name   = "tag:Name"
     values = [var.subnet-name]
   }
 }
 
-data "aws_security_group" "sg-default2" {
+data "aws_security_group" "sg-default" {
   filter {
     name   = "tag:Name"
     values = [var.security-group-name]
   }
 }
 
-resource "aws_subnet" "public-subnet22" {
+resource "aws_subnet" "public-subnet2" {
   vpc_id                  = data.aws_vpc.vpc.id
   cidr_block              = "10.0.2.0/24"
-  availability_zone       = "eu-west-1b"
+  availability_zone       = "eu-west-1c"
   map_public_ip_on_launch = true
 
   tags = {
