@@ -347,9 +347,6 @@ By integrating Jenkins, ArgoCD, AWS EKS, and monitoring tools like Prometheus an
 
 ---
 
-## **Author by:**
-
-![](https://imgur.com/2j6Aoyl.png)
 
 > [!Note]
 > **Join Our** [Telegram Community](https://t.me/prodevopsguy) // [Follow me](https://github.com/NotHarshhaa) **for more DevOps & Cloud content.**
