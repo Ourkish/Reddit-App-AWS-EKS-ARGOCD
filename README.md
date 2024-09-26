@@ -346,7 +346,3 @@ After setting up monitoring, you'll have access to detailed metrics from Prometh
 By integrating Jenkins, ArgoCD, AWS EKS, and monitoring tools like Prometheus and Grafana, you create a robust pipeline that automates the deployment, security scanning, and monitoring of your applications. This setup is ideal for embracing DevSecOps practices, allowing your teams to focus on delivering value while ensuring security and reliability.
 
 ---
-
-
-> [!Note]
-> **Join Our** [Telegram Community](https://t.me/prodevopsguy) // [Follow me](https://github.com/NotHarshhaa) **for more DevOps & Cloud content.**
